@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Poppins&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+/*Navbar*/
+.bg-personalized {
+  background-color: #4faef2;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+/*Dentro de la Card*/
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.btn-add {
+  display: block;
+  margin: 0 auto;
+}
+.btn-info {
+  display: block;
+  margin: 0 auto;
+}
+
+.imagen-card {
+  width: 100%;
+  height: 200px;  
+  object-fit: cover;  
+}
+
+/*Ticket final*/
+#ticketFinal{
+    align-items: center;
+    width: 250px;
+    text-align: center;
+    left: 100px;
+}
+
+.delete-button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #e14c5b;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
